@@ -1,13 +1,3 @@
-
-cmp[2,"FBA"]
-
-
-
-
-
-
-
-names(temp)
 #### Campaign ####
 # Record Type = Campaign 
 # Campaign = *enter into list
@@ -18,12 +8,6 @@ names(temp)
 # Ad Group = (campaign name) - Exact
 # Campaign Status = Enabled
 # Bidding Strategy = Off
-
-
-
-
-
-
 
 
 
@@ -154,33 +138,6 @@ for (c in 1:nrow(cmp)){
                        SKU = cmp[c, "FBM"],
                        Status = "Enabled"
         )
-
-
-#### Keyword 1 2 3 ####
-        # Import List with Campaign name and keywords
-        # for (k in )
-
-
-# 1-3
-# Record Type = Keyword,
-# Campaign = c,
-# Ad.Group = paste(cmp[c, "Campaign.Name"], " - Exact"),
-# Max.Bid = 2, 1.25, 0.75
-# Keyword.or.Product.Targeting = k,
-# Match.Type = Exact, Phrase, Broad
-# Status = Enabled
-
-        
-
-
-
-
-
-
-
-
-
-
 
 }
 
